@@ -30,7 +30,7 @@ featuresForm.addEventListener("submit", e => {
         .then(data => data.json())
         .then(predicted_price => {
             console.log(predicted_price);
-            predictionResult.textContent = `Predicted Price: $${predicted_price.value}`;
+            predictionResult.textContent = `$${predicted_price.value}`;
         })
         .catch(err => {
             predictionResult.textContent = `...`;

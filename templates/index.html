@@ -16,7 +16,7 @@
 
   <div class="mar">
   <div class="nav">
-    <input type="checkbox" id="nav-check">
+    <input value="0" type="checkbox" id="nav-check">
     <div class="nav-header">
       <div class="nav-title">
         Real State Estimator
@@ -42,7 +42,7 @@
   <div class="back1">
     <div class="back">
       <h1 class="ml3">Real Estate Estimate</h1>
-      <p class="Welcome" style="font-size: 30px;margin-top: 50px; text-align: center;">Welcome to hackathon 2023, our website can predict the best building you want to buy </p>
+      <p class="Welcome" style="font-size: 30px;margin-top: 50px; text-align: center;">Welcome to hackathon 2023, our website can bredict the best building you want to buy </p>
     </div>
   </div>
 
@@ -128,13 +128,13 @@
             <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
               <div class="card-body p-4 p-md-5">
                 <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Predict The Home Price</h3>
-                <form  action="/" method="POST">
+                <form method="POST">
     
                   <div class="row">
                     <div class="col-md-6 mb-4">
     
                       <div class="form-outline">
-                        <input type="number" id="longitude" name="longitude" class="form-control form-control-lg" />
+                        <input value="0" type="number" id="longitude" name="longitude" class="form-control form-control-lg" />
                         <label class="form-label" for="longitude">Longitude</label>
                       </div>
     
@@ -142,7 +142,7 @@
                     <div class="col-md-6 mb-4">
     
                       <div class="form-outline">
-                        <input type="number" id="latitude"  name="latitude" class="form-control form-control-lg" />
+                        <input value="0" type="number" id="latitude"  name="latitude" class="form-control form-control-lg" />
                         <label class="form-label" for="latitude">Latitude</label>
                       </div>
     
@@ -154,7 +154,7 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input type="number" id="totalRooms" name="totalRooms" class="form-control form-control-lg" />
+                        <input value="0" type="number" id="totalRooms" name="totalRooms" class="form-control form-control-lg" />
                         <label class="form-label" for="totalRooms">Total Rooms</label>
                       </div>
     
@@ -162,7 +162,7 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input type="number" id="totalBedrooms"  name="totalBedrooms" class="form-control form-control-lg" />
+                        <input value="0" type="number" id="totalBedrooms"  name="totalBedrooms" class="form-control form-control-lg" />
                         <label class="form-label" for="totalBedrooms">Total Bedrooms</label>
                       </div>
     
@@ -173,7 +173,7 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input type="number" id="population" name="population" class="form-control form-control-lg" />
+                        <input value="0" type="number" id="population" name="population" class="form-control form-control-lg" />
                         <label class="form-label" for="population">Population</label>
                       </div>
     
@@ -181,7 +181,7 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input type="number" id="households" name="households" class="form-control form-control-lg" />
+                        <input value="0" type="number" id="households" name="households" class="form-control form-control-lg" />
                         <label class="form-label" for="households">Households</label>
                       </div>
     
@@ -192,7 +192,7 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input type="number" id="medianIncome" name="medianIncome" class="form-control form-control-lg" />
+                        <input value="0" type="number" id="medianIncome" name="medianIncome" class="form-control form-control-lg" />
                         <label class="form-label" for="medianIncome">Median Income</label>
                       </div>
     
@@ -200,7 +200,7 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input type="text" id="oceanProximity" name="oceanProximity" class="form-control form-control-lg" />
+                        <input value="0" type="text" id="oceanProximity" name="oceanProximity" class="form-control form-control-lg" />
                         <label class="form-label" for="oceanProximity">Ocean Proximity</label>
                       </div>
     
@@ -210,7 +210,7 @@
                     <div class="col-md-6 mb-4 d-flex align-items-center">
     
                       <div class="form-outline datepicker w-100">
-                        <input type="number" class="form-control form-control-lg" name="housingMedianAge" id="housingMedianAge" />
+                        <input value="0" type="number" class="form-control form-control-lg" name="housingMedianAge" id="housingMedianAge" />
                         <label for="housingMedianAge" class="form-label">Housing Median Age</label>
                       </div>
     
@@ -219,18 +219,8 @@
     
     
                    <div class="mt-4 pt-2">
-                                <button class="btn btn-primary btn-lg"  style="background-color: rgb(40, 40, 59);" type="submit" value="submit" >Predict</button>
+                                <button class="btn btn-primary btn-lg" style="background-color: rgb(40, 40, 59);">Predict</button>
                             </div>
-                            <div class="result">
-                              <div class="res1" >
-                                  <h3>Prediction:</h3>
-                                  
-                                  <label for="prediction-result">{{ prediction }}</label>
-                                
-                              </div>
-
-                              <div id="prediction-result"></div>
-                          </div>
     
                 </form>
               </div>
@@ -238,12 +228,17 @@
           </div>
         </div>
       </div>
-     
+      <div class="result">
+        <div>
+            <h3>Prediction:</h3>
+            <p class="prediction-result"></pprediction-result>
+        </div>
+    </div>
     </section>
   
     
 
-  <h2 class="Who" style="margin-top: 200px;margin-bottom: 100px;">Who We Are?</h2>
+  <h2 class="Who" style="margin-top: 110px;margin-bottom: 100px;">Who We Are?</h2>
   <div class="slider-container">
 
     <div class="slider">
@@ -315,8 +310,8 @@
             <img src="/static/img/12.jpg" alt="Profile Image">
           </div>
           <div class="custom-card-content">
-            <h2 class="custom-card-title">Rasha Daghlas</h2>
-            <p class="custom-card-specialization">Hackathon Mentor</p>
+            <h2 class="custom-card-title">John Doe</h2>
+            <p class="custom-card-specialization">Web Developer</p>
             <p class="custom-card-description">Passionate about crafting elegant and functional websites.</p>
           </div>
           <div class="custom-card-footer">
@@ -418,5 +413,4 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="/static/real.js"></script>
 </body>
-
 </html>

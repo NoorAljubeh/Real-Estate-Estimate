@@ -1,488 +1,487 @@
 body {
-  font-family: Georgia, serif;
+    font-family: Georgia, serif;
 }
 
 /* Header styles */
 .ml3 {
-  font-weight: 900;
-  font-size: 4.7em;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  margin-top: -20px;
+    font-weight: 900;
+    font-size: 4.7em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -20px;
 }
 
 /* Body styles */
 body {
-  background-color: #181818;
+    background-color: #181818;
 }
 
 /* Navigation styles */
 .nav {
-  height: 55px;
-  width: 100%;
-  background-color: #181818;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+    height: 55px;
+    width: 100%;
+    background-color: #181818;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav > .nav-header {
-  display: inline;
+    display: inline;
 }
 
 .nav > .nav-header > .nav-title {
-  display: inline-block;
-  font-size: 22px;
-  color: #ffffff;
-  padding: 10px;
-  margin-left: 10px;
+    display: inline-block;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 .nav > .nav-btn {
-  display: none;
+    display: none;
 }
 
 .nav > .nav-links {
-  display: inline;
-  float: right;
-  font-size: 18px;
+    display: inline;
+    float: right;
+    font-size: 18px;
 }
 
 .nav > .nav-links > a {
-  display: inline-block;
-  padding: 13px 10px;
-  text-decoration: none;
-  color: #e4dcdc;
-  margin-right: 6px;
+    display: inline-block;
+    padding: 13px 10px;
+    text-decoration: none;
+    color: #e4dcdc;
+    margin-right: 6px;
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .nav > #nav-check {
-  display: none;
+    display: none;
 }
 
 /* Background styles */
 .back {
-  width: 100%;
-  height: 700px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .back1 {
-  background-image: url("/static/img/8.jpg");
+    background-image: url("/static/img/8.jpg");
 }
 
 /* Text and image styles */
 .welcome {
-  font-size: 2.1em;
-  color: white;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
+    font-size: 2.1em;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .img2 {
-  width: 550px;
-  height: 350px;
-  border-radius: 4%;
-  border: #e4dcdc solid 2px;
+    width: 550px;
+    height: 350px;
+    border-radius: 4%;
+    border: #e4dcdc solid 2px;
 }
 
 h2 {
-  text-align: center;
-  color: white;
-  font-size: 3em;
-  margin-top: 60px;
-  margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 /* Container styles */
 .container1 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 #gallary {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 .homeB {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .homeBc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hm1 {
-  text-align: center;
-  color: white;
-  font-size: 2.4em;
-  margin-top: 60px;
-  margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-size: 2.4em;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
-.home1{
-  width: 535px;
-  text-align: center;
-  align-items: center;
-  color: white;
-  margin-bottom: 50px;
-  font-size: 18px;
+.home1 {
+    width: 535px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
 }
 .home {
-  width: 750px;
-  text-align: center;
-  align-items: center;
-  color: white;
-  margin-bottom: 50px;
-  font-size: 18px;
+    width: 750px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
 }
 
 .para {
-  display: flex;
-  flex-direction: column;
-  height: 350px;
-  justify-content: space-evenly;
-  margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-evenly;
+    margin-left: 30px;
 }
 .card {
-  border: 1px solid white;
+    border: 1px solid white;
 }
 
 .well {
-  font-size: 3em;
-  color: white;
-  text-align: center;
+    font-size: 3em;
+    color: white;
+    text-align: center;
 }
 
 .card-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .fade-in-image {
-  animation: fadeIn 5s;
+    animation: fadeIn 5s;
 }
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
-  .img2 {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-  }
+    .img2 {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
 
-  h2,
-  .hm1 {
-    font-size: 2.5em;
-  }
+    h2,
+    .hm1 {
+        font-size: 2.5em;
+    }
 }
 
 @media (max-width: 480px) {
-  h2,
-  .hm1 {
-    font-size: 2em;
-  }
+    h2,
+    .hm1 {
+        font-size: 2em;
+    }
 }
 
 .ml2 {
-  font-weight: 900;
-  font-size: 2.5em;
-  color: white;
-  text-align: center;
-  padding: 70px;
+    font-weight: 900;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding: 70px;
 }
 
 .ml2 .letter {
-  display: inline-block;
-  line-height: 1em;
+    display: inline-block;
+    line-height: 1em;
 }
 .pre {
-  width: 100%;
-  height: 1150px;
-  margin-top: 50px;
-  background-image: url("./img/13.jpg");
-  background-size: cover;
+    width: 100%;
+    height: 1150px;
+    margin-top: 50px;
+    background-image: url("./img/13.jpg");
+    background-size: cover;
 }
 
 .card-registration .select-input.form-control[readonly]:not([disabled]) {
-  font-size: 1rem;
-  line-height: 2.15;
-  padding-left: 0.75em;
-  padding-right: 0.75em;
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
 }
 .card-registration .select-arrow {
-  top: 13px;
+    top: 13px;
 }
 .predict {
-  color: white;
-  text-align: center;
-  width: 860px;
-  font-size: 19px;
+    color: white;
+    text-align: center;
+    width: 860px;
+    font-size: 19px;
 }
 .para1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .custom-card {
-  background-color: #1e1e1e;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  width: 300px;
-  overflow: hidden;
-  border: none;
+    background-color: #1e1e1e;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 300px;
+    overflow: hidden;
+    border: none;
 }
 
 .custom-card-image {
-  text-align: center;
-  padding: 16px;
-  background-color: #333;
+    text-align: center;
+    padding: 16px;
+    background-color: #333;
 }
 
 .custom-card-image img {
-  width: 100%;
-  max-height: 200px;
-  object-fit: cover;
-  border-radius: 8px 8px 0 0;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .custom-card-content {
-  padding: 16px;
-  background-color: #343434;
+    padding: 16px;
+    background-color: #343434;
 }
 
 .custom-card-title {
-  margin: 0;
-  font-size: 24px;
-  text-align: center;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
 }
 
 .custom-card-specialization {
-  margin: 8px 0;
-  font-size: 18px;
-  text-align: center;
-  color: #6fa1e2;
+    margin: 8px 0;
+    font-size: 18px;
+    text-align: center;
+    color: #6fa1e2;
 }
 
 .custom-card-description {
-  font-size: 14px;
-  text-align: center;
-  color: white;
+    font-size: 14px;
+    text-align: center;
+    color: white;
 }
 
 .custom-card-footer {
-  padding: 16px;
-  text-align: center;
-  background-color: #212121;
+    padding: 16px;
+    text-align: center;
+    background-color: #212121;
 }
 
 .custom-card-button {
-  padding: 8px 16px;
-  background-color: #6fa1e2;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: #314173;
-  transition: background-color 0.3s ease;
+    padding: 8px 16px;
+    background-color: #6fa1e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #314173;
+    transition: background-color 0.3s ease;
 }
 
 .custom-card-button:hover {
-  background-color: #5b8fcd;
+    background-color: #5b8fcd;
 }
 .slider-container {
-  width: 100%;
-  overflow: hidden;
-  height: 420px;
+    width: 100%;
+    overflow: hidden;
+    height: 420px;
 }
 
 .slider {
-  display: flex;
-  transition: transform 0.5s ease;
-  /* Set the width and height to match your card dimensions */
-  width: 300px;
-  height: 400px;
+    display: flex;
+    transition: transform 0.5s ease;
+    /* Set the width and height to match your card dimensions */
+    width: 300px;
+    height: 400px;
 }
 
 .care {
-  flex: 0 0 100%; /* Each card takes the full width of the slider */
-  margin: 0 10px; /* Adjust spacing as needed */
+    flex: 0 0 100%; /* Each card takes the full width of the slider */
+    margin: 0 10px; /* Adjust spacing as needed */
 }
 
 .left-button {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .right-button {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 .slider-buttons {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .bg-footer {
-  background-color: #33383c;
-  padding: 50px 0 30px;
+    background-color: #33383c;
+    padding: 50px 0 30px;
 }
 .footer-heading {
-  letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 .footer-link a {
-  color: #cac7c7;
-  line-height: 40px;
-  font-size: 14px;
-  transition: all 0.5s;
+    color: #cac7c7;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
 }
 
 .footer-link a:hover {
-  color: #4a56b7;
+    color: #4a56b7;
 }
 
 .contact-info {
-  color: #eee2e2;
-  font-size: 14px;
+    color: #eee2e2;
+    font-size: 14px;
 }
 
 .footer-social-icon {
-  font-size: 15px;
-  height: 34px;
-  width: 34px;
-  line-height: 34px;
-  border-radius: 3px;
-  text-align: center;
-  display: inline-block;
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
 }
 
 .facebook {
-  background-color: #4e71a8;
-  color: #ffffff;
+    background-color: #4e71a8;
+    color: #ffffff;
 }
 
 .twitter {
-  background-color: #55acee;
-  color: #ffffff;
+    background-color: #55acee;
+    color: #ffffff;
 }
 
 .google {
-  background-color: #d6492f;
-  color: #ffffff;
+    background-color: #d6492f;
+    color: #ffffff;
 }
 
 .apple {
-  background-color: #424041;
-  color: #ffffff;
+    background-color: #424041;
+    color: #ffffff;
 }
 
 .footer-alt {
-  color: #acacac;
+    color: #acacac;
 }
 
 .footer-heading {
-  position: relative;
-  padding-bottom: 12px;
+    position: relative;
+    padding-bottom: 12px;
 }
 
 .footer-heading:after {
-  content: "";
-  width: 25px;
-  border-bottom: 1px solid #fff;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  display: block;
-  display: block;
-  border-bottom: 1px solid #428ec1;
+    content: "";
+    width: 25px;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    display: block;
+    border-bottom: 1px solid #428ec1;
 }
 .bg-footer {
-  margin-top: 190px;
+    margin-top: 190px;
 }
-.form-outline{
-  display: flex;
-  flex-direction: row-reverse;
+.form-outline {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.form-label{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width:500px;
+.form-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
 }
-.btn btn-primary btn-lg{
-  background-color: #3a3a58;;
+.btn btn-primary btn-lg {
+    background-color: #3a3a58;
 }
-footer{
-  height: 370px;
+footer {
+    height: 370px;
 }
-.row{
-  justify-content: center;
+.row {
+    justify-content: center;
 }
 /* Add this CSS to style the slider buttons */
 .slider-buttons {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .slider-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 24px;
-  color: #ffffff;
-  transition: transform 0.3s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ffffff;
+    transition: transform 0.3s ease;
 }
 
 .slider-button:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
-.pred{
-  color: white;
+.pred {
+    color: white;
 }
-.result{
-  color: rgb(23, 23, 59);
+.result {
+    color: #fff;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-
 }
-.res1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin-top: 30px;
+.res1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
 }
-.custom-card{
-  height: 419px;
+.custom-card {
+    height: 419px;
 }
-.custom-card-footer{
-  padding: 11px;
+.custom-card-footer {
+    padding: 11px;
 }

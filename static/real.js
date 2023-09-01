@@ -4,6 +4,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
 
 const predictionResult = document.querySelector(".prediction-result");
 const featuresForm = document.querySelector("form");
+const oceanProximitySelect = document.querySelector("#oceanProximity");
 
 featuresForm.addEventListener("submit", e => {
     e.preventDefault();
@@ -12,7 +13,13 @@ featuresForm.addEventListener("submit", e => {
     for (key in data) {
         data[key] = Number(data[key]);
     }
+    delete data.oceanProximity;
 
+    for (let i = 0; i < oceanProximitySelect.options.length; i++) {
+        const key = oceanProximitySelect.options[i].value;
+        data[key] = i !== oceanProximitySelect.selectedIndex ? 0 : 1;
+    }
+    console.log(data);
     fetch("/predict_price", {
         headers: {
             "Content-Type": "application/json"

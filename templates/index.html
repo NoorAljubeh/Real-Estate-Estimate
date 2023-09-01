@@ -129,12 +129,12 @@
               <div class="card-body p-4 p-md-5">
                 <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Predict The Home Price</h3>
                 <form method="POST">
-    
+
                   <div class="row">
                     <div class="col-md-6 mb-4">
     
                       <div class="form-outline">
-                        <input value="0" type="number" id="longitude" name="longitude" class="form-control form-control-lg" />
+                        <input value="0" type="text" id="longitude" name="longitude" class="form-control form-control-lg" />
                         <label class="form-label" for="longitude">Longitude</label>
                       </div>
     
@@ -142,19 +142,17 @@
                     <div class="col-md-6 mb-4">
     
                       <div class="form-outline">
-                        <input value="0" type="number" id="latitude"  name="latitude" class="form-control form-control-lg" />
+                        <input value="0" type="text" id="latitude"  name="latitude" class="form-control form-control-lg" />
                         <label class="form-label" for="latitude">Latitude</label>
                       </div>
     
                     </div>
                   </div>
-    
-                
                   <div class="row">
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input value="0" type="number" id="totalRooms" name="totalRooms" class="form-control form-control-lg" />
+                        <input value="0" type="text" id="totalRooms" name="total_rooms" class="form-control form-control-lg" />
                         <label class="form-label" for="totalRooms">Total Rooms</label>
                       </div>
     
@@ -162,7 +160,7 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input value="0" type="number" id="totalBedrooms"  name="totalBedrooms" class="form-control form-control-lg" />
+                        <input value="0" type="text" id="totalBedrooms"  name="total_bedrooms" class="form-control form-control-lg" />
                         <label class="form-label" for="totalBedrooms">Total Bedrooms</label>
                       </div>
     
@@ -173,7 +171,7 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input value="0" type="number" id="population" name="population" class="form-control form-control-lg" />
+                        <input value="0" type="text" id="population" name="population" class="form-control form-control-lg" />
                         <label class="form-label" for="population">Population</label>
                       </div>
     
@@ -181,7 +179,7 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input value="0" type="number" id="households" name="households" class="form-control form-control-lg" />
+                        <input value="0" type="text" id="households" name="households" class="form-control form-control-lg" />
                         <label class="form-label" for="households">Households</label>
                       </div>
     
@@ -192,7 +190,7 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input value="0" type="number" id="medianIncome" name="medianIncome" class="form-control form-control-lg" />
+                        <input value="0" type="text" id="medianIncome" name="median_income" class="form-control form-control-lg" />
                         <label class="form-label" for="medianIncome">Median Income</label>
                       </div>
     
@@ -200,17 +198,22 @@
                     <div class="col-md-6 mb-4 pb-2">
     
                       <div class="form-outline">
-                        <input value="0" type="text" id="oceanProximity" name="oceanProximity" class="form-control form-control-lg" />
+                        <select id="oceanProximity" name="oceanProximity" class="form-control form-control-lg">
+                          <option value="INLAND">INLAND</option>
+                          <option value="ISLAND">ISLAND</option>
+                          <option value="NEAR BAY">NEAR BAY</option>
+                          <option value="NEAR OCEAN">NEAR OCEAN</option>
+                          <option value="<1H OCEAN">&lt;1H OCEAN</option>
+                        </select>
                         <label class="form-label" for="oceanProximity">Ocean Proximity</label>
                       </div>
-    
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6 mb-4 d-flex align-items-center">
     
                       <div class="form-outline datepicker w-100">
-                        <input value="0" type="number" class="form-control form-control-lg" name="housingMedianAge" id="housingMedianAge" />
+                        <input value="0" type="text" class="form-control form-control-lg" name="housing_median_age" id="housingMedianAge" />
                         <label for="housingMedianAge" class="form-label">Housing Median Age</label>
                       </div>
     
